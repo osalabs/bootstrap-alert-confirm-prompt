@@ -12,6 +12,13 @@ It allows for better customization and styling, making use of Bootstrap's compon
 - Focus management for buttons and input fields.
 - Additional options for modal size and background customization.
 
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/eeb438fb-5250-4139-be27-e0636f56d1ae)
+
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/19ac2112-675d-4959-9eb3-4a4cc809952c)
+
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/36287df2-7ab1-4bbf-8b9c-2af3409e6a9f)
+
+
 ## Installation
 
 1. Include CSS and JS for Bootstrap 5 and Bootstrap Icons in your HTML file:
