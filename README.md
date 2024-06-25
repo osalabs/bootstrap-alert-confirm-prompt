@@ -1,11 +1,11 @@
 # bootstrap-alert-confirm-prompt
 
-Drop-in replacement for JavaScript's native `alert`, `confirm`, and `prompt` functions using Bootstrap 5 modals.
+Drop-in (await) replacement for JavaScript's native `alert`, `confirm`, and `prompt` functions using Bootstrap 5 modals.
 It allows for better customization and styling, making use of Bootstrap's components and utilities.
 
 ## Features
 
-- Drop-in replacement for browser's native `alert`, `confirm`, and `prompt`.
+- Replacement for browser's native `alert`, `confirm`, and `prompt`.
 - Customizable titles, icons, and CSS classes.
 - Support for HTML content in alerts.
 - Configurable buttons with custom text, classes, and return values.
@@ -28,7 +28,7 @@ It allows for better customization and styling, making use of Bootstrap's compon
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     ```
 
-2. Include the `custom-modals.js` script in your HTML file:
+2. Include the `bootstrap-alert-confirm-prompt.js` script in your HTML file:
     ```html
     <script src="path/to/bootstrap-alert-confirm-prompt.js"></script>
     ```
