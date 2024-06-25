@@ -73,7 +73,7 @@ All modals accept an options object with the following properties:
 
 ### Defaults:
 
-```
+```javascript
 alert('Text', {
     title: 'Alert',
     icon: 'bi-exclamation-triangle-fill text-warning',
