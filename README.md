@@ -98,7 +98,7 @@ let result = await confirm('Text', {
 
 let result = await prompt('Text', '', {
     title: 'Prompt',
-    icon: 'bi-pencil-fill text-primary',
+    icon: 'bi-pencil-square text-secondary',
     buttons: [
         { text: 'OK', class: 'btn-primary', value: 'ok' },
         { text: 'Cancel', class: 'btn-secondary', value: 'cancel' }

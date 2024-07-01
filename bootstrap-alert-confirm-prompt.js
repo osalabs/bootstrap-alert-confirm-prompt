@@ -79,7 +79,7 @@
     };
 
     window.prompt = async function(text, defaultValue = '', options = {}) {
-        const { title = 'Prompt', icon = 'bi-pencil-fill text-primary', class: modalClass = '', buttons = [
+        const { title = 'Prompt', icon = 'bi-pencil-square text-secondary', class: modalClass = '', buttons = [
             { text: 'OK', class: 'btn-primary', value: 'ok' },
             { text: 'Cancel', class: 'btn-secondary', value: 'cancel' }
         ], focus = 0, classDialog = '', classContent = '' } = options;
