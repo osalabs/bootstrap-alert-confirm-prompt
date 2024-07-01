@@ -12,12 +12,7 @@ It allows for better customization and styling, making use of Bootstrap's compon
 - Focus management for buttons and input fields.
 - Additional options for modal size and background customization.
 
-![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/eeb438fb-5250-4139-be27-e0636f56d1ae)
-
-![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/19ac2112-675d-4959-9eb3-4a4cc809952c)
-
-![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/36287df2-7ab1-4bbf-8b9c-2af3409e6a9f)
-
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/352b894b-708f-40e2-b8a6-52ccea5be4c9)
 
 ## Installation
 
@@ -119,7 +114,11 @@ alert('This is an alert with a custom title and icon!', {
     title: 'Custom Alert',
     icon: 'bi-info-circle-fill text-info'
 });
+```
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/2b732126-1ba8-4b5a-a71f-606128f34f10)
 
+
+```javascript
 // Confirm with custom buttons
 confirm('Do you want to proceed?', {
     title: 'Proceed?',
@@ -130,14 +129,22 @@ confirm('Do you want to proceed?', {
         { text: 'Maybe', class: 'btn-secondary', value: 'maybe' }
     ]
 }).then(result => console.log('Confirm result with custom buttons:', result));
+```
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/9c83682c-e2c2-40e0-bb0c-96044bc59fa6)
 
+
+```javascript
 // Prompt with custom title and icon
 prompt('Please enter your email:', '', {
     title: 'Email Input',
     icon: 'bi-envelope-fill text-primary',
     class: 'custom-prompt-class'
 }).then(result => console.log('Prompt result with custom title and icon:', result));
+```
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/691c31d4-ecf9-475b-805f-1cfe3e1a0749)
 
+
+```javascript
 // Prompt with custom buttons and classes
 prompt('Please enter your username:', 'user123', {
     title: 'Username',
@@ -150,6 +157,8 @@ prompt('Please enter your username:', 'user123', {
     ]
 }).then(result => console.log('Prompt result with custom buttons and classes:', result));
 ```
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/d1358718-15ba-4e43-bc97-8fefcba29ba1)
+
 
 
 ### Usage with await
@@ -164,6 +173,7 @@ async function runAsyncExamples() {
     const promptResult = await prompt('What is your age?', '25', {
         title: 'Age Input',
         icon: 'bi-calendar-fill text-primary',
+        classContent: 'bg-dark text-light',
         buttons: [
             { text: 'Submit', class: 'btn-primary', value: 'submit' },
             { text: 'Cancel', class: 'btn-danger', value: 'cancel' }
@@ -188,4 +198,11 @@ async function runAsyncExamples() {
 
 runAsyncExamples();
 ```
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/5b0c6111-0337-4ff6-a691-aff4fec30124)
+
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/830a856c-a194-4ba5-9b12-4a1081d9d818)
+
+![image](https://github.com/osalabs/bootstrap-alert-confirm-prompt/assets/1141095/8107d94c-a88b-4fbe-91e6-864c39e4c566)
+
+
 
