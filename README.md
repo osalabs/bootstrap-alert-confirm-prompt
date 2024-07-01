@@ -65,6 +65,15 @@ All modals accept an options object with the following properties:
 
 - `focus`: The index of the button to focus on when the modal is shown.
 
+### Return values
+
+- `confirm`:
+  - `false` - when user clicks default "Cancel" button or closes modal
+  - `true` - when user clicks default "OK" button
+  - custom button value - when user clicks custom button
+- `prompt`:
+  - `null` - when user clicks default "Cancel" button or closes modal
+  - input string value - when user click any other buttons
 
 ### Defaults:
 
